@@ -2,6 +2,7 @@ import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 import './ParallaxView.css';
 
+
 const ParallaxView = () => {
   return (
     <div style={{ margin: '1em' }}>
@@ -27,7 +28,7 @@ const ParallaxView = () => {
         {/* -----dynamic blur-----*/}
         <Parallax
           blur={{ min: -20, max: 40 }}
-          bgImage={require('/Users/sabina/Documents/project/src/images/home/img_2.jpg')}
+          bgImage={require('../../images/slider/slid_1.jpg')}
           bgImageAlt="2"
           strength={-200}
           className="img-block"
@@ -55,7 +56,7 @@ const ParallaxView = () => {
         {/* -----renderProp: "renderLayer"-----*/}
         <Parallax
           blur={{ min: -15, max: 40 }}
-          bgImage={require('/Users/sabina/Documents/project/src/images/home/img_3.jpg')}
+          bgImage={require('../../images/slider/slid_1.jpg')}
           strength={400}
           renderLayer={() => (
             <div style={{ height: '700px' }} />
