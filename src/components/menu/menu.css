@@ -1,14 +1,37 @@
 .nav-bar {
-    width: 60%;
+    
     display: flex;
     justify-content: flex-end;
+    font-family: Helvetica;
+    font-size: medium;
+    font-weight: 500;
 }
 
 .point-menu {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 5px 20px;
+    border-bottom: 1px solid black;
+    margin-right: 5px;
 }
 
 .point-menu:hover {
     background-color: rgb(192, 192, 192);
-    border-radius: 10%;
+    border-radius: 5%;
+    box-shadow: 0 0 5px rgba(133, 133, 133, 0.2);
+    border-bottom: 0px;
+} 
+
+.point-menu:active {
+    background-color: rgb(192, 192, 192);
+}
+
+.dropdown-menu {
+    font-family: Helvetica;
+    font-size: medium;
+    padding: 10px 0px 10px 0px;
+}
+
+.dropdown-menu:hover {
+    background-color: rgb(224, 224, 224);
+    border-radius: 5%;
+    box-shadow: 0 0 5px rgba(133, 133, 133, 0.2);
 } 

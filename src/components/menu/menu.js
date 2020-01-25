@@ -1,31 +1,6 @@
 import React, { Component } from 'react';
 import './menu.css';
-
-
-/*class Menu extends React.Component {
-    render () {
-        return (
-            <section>
-                <div className="logo">
-                    <img />
-                </div> 
-                <nav>
-                    <div>Забронировать Столик </div>
-                    <div>Меню</div>
-                    <div>О нас</div>
-                    <div>Фотогалерея</div>
-                    <div>Контакты</div>
-                    <div></div>
-              </nav>
-                <div>
-                    Поиск 
-                </div>
-            </section>
-        );
-    }
-}
-
-export default Menu;*/
+import logo from '../../images/logo.svg';
 
 
 class Menu extends Component {
@@ -61,7 +36,11 @@ class Menu extends Component {
 
   render() {
     return (
-        <nav className="nav-bar">
+      <div>
+        <div className="logo">
+          <svg>{logo}</svg>;
+        </div>
+         <nav className="nav-bar">
             <div>
                 <div className="point-menu">
                     <a>БРОНИРОВАНИЕ</a>
@@ -81,9 +60,9 @@ class Menu extends Component {
                     this.dropdownMenu = element;
                     }}
                 >
-                    <div>Завтрак</div>
-                    <div>Обед</div>
-                    <div>Ужин</div>
+                    <div className="dropdown-menu">Завтрак</div>
+                    <div className="dropdown-menu">Обед</div>
+                    <div className="dropdown-menu">Ужин</div>
                 </div>
                 )
                 : (
@@ -107,7 +86,10 @@ class Menu extends Component {
                    КОНТАКТЫ
                 </div>
             </div>
-      </nav>
+      </nav> 
+      </div>
+
+        
     );
   }
 }

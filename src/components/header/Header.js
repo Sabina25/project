@@ -9,7 +9,7 @@ class Header extends React.Component {
         return (
             <section className="header">
                 <Slider />;
-                <Menu />;
+                <Menu className="main-menu"/>;
                 
             </section>
         );
