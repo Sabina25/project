@@ -36,7 +36,7 @@ class Menu extends Component {
 
   render() {
     return (
-      <div>
+      <div classNam="menu">
         <div className="logo">
           <svg>{logo}</svg>;
         </div>

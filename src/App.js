@@ -1,17 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ParallaxView from './components/parallax-view/ParallaxView';
 import Header from './components/header/Header';
-
-
+import Menu from './components/menu/Menu';
 
 function App() {
   return (
     <div className="App">
-        <Header />;
-      <ParallaxView />;
-      
+        <Menu />
+        <Header />
     </div>
   );
 }

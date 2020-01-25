@@ -24,9 +24,10 @@ const properties = {
   arrows: true
 }
 
-const Slideshow = () => {
+const Slider = () => {
     return (
-      <Slide {...properties}>
+      <div className="slider">
+      <Slide {...properties} >
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[0]})`}}>  
             <span>Slide 1</span>
@@ -53,7 +54,8 @@ const Slideshow = () => {
           </div>
         </div>
       </Slide>
+      </div>
     )
 }
 
-export default Slideshow;
+export default Slider;
