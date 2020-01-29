@@ -5,6 +5,7 @@ import slid2 from '../../image/slider/slide_2.jpg';
 import slid3 from '../../image/slider/slide_3.jpg';
 import slid4 from '../../image/slider/slide_4.jpg';
 import slid5 from '../../image/slider/slide_5.jpg';
+import logo from '../../logo.png';
 import './Slider.css';
 
 const slideImages = [slid1, slid2, slid3, slid4, slid5];
@@ -22,11 +23,13 @@ const Slider = () => {
     <Slide {...properties}>
       <div className="each-slide">
         <div style={{ backgroundImage: `url(${slideImages[0]})` }}>
-          <div>ДОБРО ПОЖАЛОВАТЬ В НАШ РЕСТОРАН!</div>
-          
-          <span>
-            Забронировать столик 
-          </span>
+          <div>
+              <img src={logo} alt="" className="logo-img"/>
+            <div> </div>
+            <span>
+              Забронировать столик 
+            </span>
+          </div>
         </div>
       </div>
       <div className="each-slide">
