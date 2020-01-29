@@ -1,8 +1,9 @@
 import React from 'react';
 import ParallaxView from './components/ParallaxView/ParallaxView';
-import Header from './components/Header/Header';
-import Menu from './components/Menu/Menu';
-import Slider from './components/Slider/Slider';
+import Header from './components/header/Header';
+import Menu from './components/menu/Menu';
+import Slider from './components/slider/Slider';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Slider />
       <Header />
       <ParallaxView />
+      <Footer />
     </div>
   );
 }
