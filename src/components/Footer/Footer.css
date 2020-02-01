@@ -1,8 +1,62 @@
 .footer {
-    width: 500px;
-    background-color: antiquewhite;
+    padding-top: 20px;
+    align-items: center;
+    font-family: Helvetica;
+    box-shadow: 0 0 10px rgba(231, 231, 231, 0.5);
+    height: 70vh;
+    background-color: rgb(228, 220, 220);
+}
+
+.footer-1 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.footer-2 {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+.footer-2 .phone {
+    text-align: right;
+    width: 45%;
+    padding-left: 15px;
+}
+
+.footer-2 .soc-net {
+    text-align: left;
+    width: 45%;
+    padding-left: 15px;
 }
 
 .map {
-    height: 200px;
+    height: 70%;
+    width: 40%;
+}
+
+p {
+    font-family: Helvetica;
+    color: rgb(85, 63, 63);;
+}
+
+.soc-img {
+    width: 30px;
+    box-shadow: 0 0 5px rgba(231, 231, 231, 0.5);
+}
+
+.soc-img:hover {
+    width: 35px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    width: 40%;
 }

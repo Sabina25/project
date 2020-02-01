@@ -1,0 +1,29 @@
+
+.btn-primary  {
+    margin: "10px 10px 10px 10px";
+    background-color: rgb(85, 63, 63);
+    color: white;
+    border-radius: 10%;
+    font-size: medium;
+    padding: 5px;
+}
+
+.btn-secondary {
+    background: none;
+    border: none;
+    font-size: medium;
+    padding: 5px;
+}
+
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.5);
+}
+
+
+.btn-primary:active,
+.btn-secondary:active {
+    box-shadow: 0 0 10px rgba(51, 48, 48, 0.5);
+}
+

@@ -1,0 +1,24 @@
+.form-control {
+    margin: "10px 10px 10px 10px";
+    background-color: rgba(231, 231, 231, 0.5);
+    color: rgb(85, 63, 63);
+    width: 70%;
+    font-size: medium;
+    padding: 5px;
+}
+
+.form-label {
+    font-family: Helvetica;
+    font-size: medium;
+    display: block;
+    color: rgb(85, 63, 63);
+    font-size: medium;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.5);
+}
