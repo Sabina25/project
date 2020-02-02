@@ -5,3 +5,18 @@
   padding: 20px;
   width: 100%;
 }
+
+.all-menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.logo-menu {
+  height: 50px;
+  padding-right: 20px;
+}

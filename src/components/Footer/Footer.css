@@ -1,44 +1,114 @@
-.footer {
-    padding-top: 20px;
-    align-items: center;
-    font-family: Helvetica;
-    box-shadow: 0 0 10px rgba(231, 231, 231, 0.5);
-    height: 70vh;
-    background-color: rgb(228, 220, 220);
+
+@media screen and (min-width:1025px) {
+    .footer {
+        padding-top: 20px;
+        align-items: center;
+        font-family: Helvetica;
+        box-shadow: 0 0 10px rgba(231, 231, 231, 0.5);
+        height: 70vh;
+        background-color: rgb(228, 220, 220);
+    }
+    
+    .footer-1 {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;   
+    }
+    
+    .footer-2 {
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+    }
+    
+    .footer-2 .phone {
+        text-align: right;
+        width: 45%;
+        padding-left: 15px;
+    }
+    
+    .footer-2 .soc-net {
+        text-align: left;
+        width: 45%;
+        padding-left: 15px;
+    }
+    
+    .map {
+        height: 70%;
+        width: 40%;
+    }
+    
+    p {
+        font-family: Helvetica;
+        color: rgb(85, 63, 63);
+    }
+    
+    .soc-img {
+        width: 30px;
+        box-shadow: 0 0 5px rgba(231, 231, 231, 0.5);
+    }
+    
+    .soc-img:hover {
+        width: 35px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    
+    .icons {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contacts {
+        width: 40%;
+    }
 }
 
-.footer-1 {
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;   
-}
 
-.footer-2 {
-    display: flex;
-    padding: 5px;
-    justify-content: center;
-}
+@media screen and (max-width:1024px) {
+    .footer {
+        padding-top: 10px;
+        align-items: center;
+        font-family: Helvetica;
+        box-shadow: 0 0 10px rgba(231, 231, 231, 0.5);
+        background-color: rgb(228, 220, 220);
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    
+    .footer-1 {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-.footer-2 .phone {
-    text-align: right;
-    width: 45%;
-    padding-left: 15px;
-}
+    .footer-1 .map {
+        order: 2;
+        margin-top: 10px;
+    }
 
-.footer-2 .soc-net {
-    text-align: left;
-    width: 45%;
-    padding-left: 15px;
-}
+    .footer .contacts {
+        order: 1;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 20px;
+    }
 
-.map {
-    height: 70%;
-    width: 40%;
-}
+    .footer-2 {
+        width: 80%;
+        height: 100px;
+        font-family: Helvetica;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
 
-p {
-    font-family: Helvetica;
-    color: rgb(85, 63, 63);;
+    .footer-2 .soc-net {
+        text-align: right;
+    }
 }
 
 .soc-img {
@@ -57,6 +127,3 @@ p {
     justify-content: space-between;
 }
 
-.contacts {
-    width: 40%;
-}
