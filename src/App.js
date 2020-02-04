@@ -14,7 +14,9 @@ function App() {
     <div className="App">
       <div className="all-menu">
         <BurgerMenu />
-        <img  className="logo-menu" src={logo} alt="/"/>
+        <div className="block-menu-img">
+          <img  className="logo-menu" src={logo} alt="/"/>
+        </div>  
       </div>
       
       <Slider />

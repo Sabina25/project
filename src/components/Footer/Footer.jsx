@@ -16,9 +16,7 @@ class Footer extends React.Component {
                         <SimpleMap />
                     </section>
                     <section className="contacts">
-                        <div>
-                            <FormConts />
-                        </div>
+                        <FormConts />
                     </section>
             </div>
             <div className="footer-2">

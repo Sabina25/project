@@ -1,4 +1,6 @@
-
+.wrapper {
+  font-family: Helvetica;
+}
 
 .sr-only {
     position: absolute;
@@ -161,7 +163,7 @@
    Larger screen styling
    Horizontal menu
   */
-  @media (min-width: 768px) {
+  @media (min-width: 1025px) {
     .menu-toggle,
     .main-menu .menu-close {
       display: none;
